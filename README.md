@@ -10,17 +10,17 @@ It was created as part of the course ***64-31 Internet Programming*** at **Haute
 - REST API in PHP: Building RESTful services with PHP.
 
 ## Project Structure
-- 'Demo_1/' : Basic PHP form handling.
-- 'Demo_BDD/' : Basic database interaction with PHP.
-- 'TP-01_Syntaxe/' : Introduction to PHP syntax.
-- 'TP-02_Syntaxe/' : Advanced PHP syntax concepts.
-- 'TP-03_Formulaire/' : Form handling exercises.
-- 'TP-04_Formulaire/' : More advanced form handling.
-- 'TP-05_Acces_BDD/' : Connecting and querying MySQL databases.
-- 'TP-06_Acces_BDD/' : Additional database exercises.
-- 'TP-07_Export/' : Exporting data from a database.
-- 'TP-08_CRUD/' : Implementing CRUD operations.
-- 'TP-09_REST/' : Building a REST API in PHP.
+- `Demo_1/` : Basic PHP form handling.
+- `Demo_BDD/` : Basic database interaction with PHP.
+- `TP-01_Syntaxe/` : Introduction to PHP syntax.
+- `TP-02_Syntaxe/` : Advanced PHP syntax concepts.
+- `TP-03_Formulaire/` : Form handling exercises.
+- `TP-04_Formulaire/` : More advanced form handling.
+- `TP-05_Acces_BDD/` : Connecting and querying MySQL databases.
+- `TP-06_Acces_BDD/` : Additional database exercises.
+- `TP-07_Export/` : Exporting data from a database.
+- `TP-08_CRUD/` : Implementing CRUD operations.
+- `TP-09_REST/` : Building a REST API in PHP.
 
 ## Prerequisites
 - PHP 7.x or 8.x
@@ -55,8 +55,8 @@ Example: Running a Form Processing Exercise
 | DELETE | `/api/resource/{id}` | Delete a resource |
 
 ## Useful References
-PHP Documentation : https://www.php.net/manual/en/
-MySQL Documentation : https://dev.mysql.com/doc/
+- PHP Documentation : https://www.php.net/manual/en/
+- MySQL Documentation : https://dev.mysql.com/doc/
 
 ## License
 This project is licensed under the Creative Commons Attribution-ShareAlike (CC BY-SA) license.
