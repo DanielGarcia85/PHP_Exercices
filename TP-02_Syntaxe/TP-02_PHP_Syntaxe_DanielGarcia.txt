@@ -1,0 +1,32 @@
+<?php
+
+function calculeEpargne($epargneMensuelle, $nombreAnnee, $interet = 0.5) {
+
+	echo("Vous épargnez ".$epargneMensuelle." CHF par mois pendant ".$nombreAnnee." ans avec un taux d'intérêt de ".$interet."\n");
+
+	$epargneAnnuelle = $epargneMensuelle*12;
+	$interetAnnuel = $epargneAnnuelle/100*$interet;
+	$totalEpargne = 0;
+	$interetTotal = 0;
+
+	for ($i = 1; $i <= $nombreAnnee; $i++) {
+
+		$totalEpargneAvantInteret = round($totalEpargne + $epargneAnnuelle);
+		
+		$interetAnnuel = round($totalEpargneAvantInteret/100*$interet);
+		
+		$totalEpargne = $totalEpargneAvantInteret + $interetAnnuel;
+
+		$interetTotal = $interetTotal + $interetAnnuel;
+
+		echo("\nAnnée ".$i." : Solde = ".$totalEpargne." : Interet de cette année = ".$interetAnnuel." : Interet total = ".$interetTotal);
+
+	}
+
+	echo("\n\nLe montant total de votre épargne sera de ".$totalEpargne." CHF dont ".$interetTotal." CHF d'intérêt cumulé");
+
+}
+
+calculeEpargne(100, 10, 1);
+echo("\n\n------------------------------------------------------------------------------------\n\n");
+calculeEpargne(50, 5);

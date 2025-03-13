@@ -1,0 +1,18 @@
+
+<form action = "traitementPHP.php" method ="post">
+
+    <h1>Convertisseur de devise</h1>
+    <label for="montant">Veuillez saisir le montant en CHF</label>
+    <input type="text" id="montant" name="montant" required>
+    <br>
+
+    <label for="devise">Devise</label>
+    <select required id="devise" name="devise">
+        <option value="" selected disabled>--Choisissez une devise--</option>
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+    </select>
+    <br>
+
+    <button type="submit">Convertir</button>
+</form>

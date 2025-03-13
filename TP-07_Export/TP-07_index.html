@@ -1,0 +1,66 @@
+<form action = "TP-07_PHP_Export.php" method="get">
+
+    <br>
+    <input type="radio" id="formatChoice1" name="format" value="csv">
+    <label for="formatChoice1">CSV</label>
+    <br>
+    <input type="radio" id="formatChoice2" name="format" value="json">
+    <label for="formatChoice2">JSON</label>
+    <br>
+    <input type="radio" id="formatChoice3" name="format" value="xml">
+    <label for="formatChoice3">XML</label>
+
+    <h1>Formulaire de rechercher dans la BDD "NPA Localit&eacute;"</h1>
+
+    <label for="code">Code comman&ccedil;ant par </label>
+    <input type="text" id="code" name="code">
+
+    <br><br>
+    <button type="submit" id="rechcode" name="recherche" value="rechcode">Rechercher par code</button>
+
+    <br><br>
+
+    <label for="localite">Localit&eacute; comman&ccedil;ant par </label>
+    <input type="text" id="localite" name="localite">
+
+    <br><br>
+    <button type="submit" id="rechloc" name="recherche" value="rechloc">Rechercher par localite</button>
+
+    <br>
+    <h1>Formulaire de rechercher dans la BDD "Sommets"</h1>
+
+    <label for="nom">Nom comman&ccedil;ant par </label>
+    <input type="text" id="nom" name="nom">
+
+    <br><br>
+    <label for="region">Region comman&ccedil;ant par </label>
+    <input type="text" id="region" name="region">
+
+    <br><br>
+    <label for="altmin">Altitude minumum </label>
+    <input type="text" id="altmin" name="altmin">
+    <label for="altmax">Altitude maximum </label>
+    <input type="text" id="altmax" name="altmax">
+
+    <br><br>
+    <label for="order">Tri&eacute; par:</label>
+    <select id="order" name="order">
+        <option value="null" selected disabled>--Choisissez un tri--</option>
+        <option value="nom">Nom</option>
+        <option value="region">Region</option>
+        <option value="altitude">Altitude</option>
+    </select>
+
+    <input type="radio" id="triasc" name="tri" value="triasc">
+    <label for="triasc">Ascendant</label>
+    <input type="radio" id="trides" name="tri" value="trides">
+    <label for="trides">Descendant</label>
+
+    <br><br>
+    <label for="page">Page N&deg; </label>
+    <input type="number" id="page" name="page" min="1" value="1">
+
+    <br><br>
+    <button type="submit" id="rechsom" name="recherche" value="rechsom">Rechercher un sommet</button>
+
+</form>

@@ -1,0 +1,26 @@
+
+<form action = "traitementPHP.php" method="post">
+
+    <h1>Recherche</h1>
+
+    <label for="nom">Nom </label>
+    <input type="text" id="nom" name="nom">
+
+    <label for="prefixe">Prefixe</label>
+    <select id="prefixe" name="prefixe">
+        <option></option>
+        <option value="076">076</option>
+        <option value="077">077</option>
+        <option value="078">078</option>
+        <option value="079">079</option>
+    </select>
+
+    <label for="roaming">Option roaming</label>
+    <input type="checkbox" id="roaming" name="roaming" value="off">
+
+    <label for="sms">Option SMS</label>
+    <input type="checkbox" id="sms" name="sms" value="off">
+
+    <button type="submit" id="rechercher" name="rechercher">Rechercher</button>
+
+</form>

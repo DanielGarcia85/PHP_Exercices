@@ -1,0 +1,52 @@
+<?php
+
+//commentaire
+
+/*
+commentaire
+*/
+
+$client = "Dupont";
+echo("Bonjour $client\n");
+echo("Bonjour".$client."\n");
+echo('Bonjour $client'."\n");
+
+//Fonction
+function aa($p="coucou"){
+	echo($p."\n");
+}
+aa("ciao");
+
+//Condition
+if ($client=="Dupont"){
+	echo("c'est lui\n");
+}
+
+//Boucle
+for ($i=1;$i<=3;$i++){
+	echo($i."\n");
+}
+
+function afficherNombre($debut, $fin, $incre){
+	for($i=$debut;$i<=$fin;$i=$i+$incre){
+		echo($i."\n");
+	}
+	
+}
+afficherNombre(1, 10, 2);
+
+function quelAge($annee){
+	$anneeActuelle = date("Y");
+	echo("L'année actuelle est ".$anneeActuelle." et vous êtes né en ".$annee."\n");
+	if($anneeActuelle-$annee<18){
+		echo("Vous êtes mineur\n");
+	}elseif($anneeActuelle-$annee==18){
+		echo("Vous êtes devenu majeur cette année\n");
+	}else{
+		echo("Vous êtes majeur\n");
+	}
+}
+quelAge(1985);
+quelAge(2006);
+quelAge(2012);
+
