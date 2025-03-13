@@ -62,4 +62,4 @@ Example: Running a Form Processing Exercise
 This project is licensed under the Creative Commons Attribution-ShareAlike (CC BY-SA) license.
 
 ## Author
-Project created by Daniel Garcia as part of the course ***64-31 Internet Programming*** at **Haute École de Gestion (HEG)** during the Spring semester of 2025.
+Project created by Daniel Garcia as part of the course ***64-31 Internet Programming*** at **Haute École de Gestion (HEG)** during the Spring semester of 2024.
